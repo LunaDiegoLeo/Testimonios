@@ -81,3 +81,35 @@ body {
   from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* src/styles.css */
+/* ... tus estilos anteriores ... */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Estado de Error en la tarjeta */
+.testimonial-card.error-state {
+  border: 2px dashed var(--muted); /* Usamos tu variable muted */
+  color: var(--muted);
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estado Vacío de la App */
+.empty-state {
+  background-color: var(--card); /* Usamos tu variable card */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #888;
+  max-width: 400px;
+}
