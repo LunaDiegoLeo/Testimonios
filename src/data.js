@@ -40,7 +40,35 @@ const testimonios = [
 
     foto: 'https://i.pravatar.cc/150?img=45' 
 
-  } 
+  },
+
+  { 
+
+    id: 4, 
+
+    nombre: 'Laura Flores', 
+
+    cargo: 'Desarrollador', 
+
+    texto: 'Resultados visibles desde el primer mes. Muy fácil de integrar en mi flujo de trabajo.', 
+
+    foto: 'https://i.pravatar.cc/150?img=35' 
+
+  },
+
+  { 
+
+    id: 5, 
+
+    nombre: 'Mauro Sánchez', 
+
+    cargo: 'Emprendedor', 
+
+    texto: 'Hacia el exito con esta herramienta. Mi negocio ha crecido exponencialmente.', 
+
+    foto: 'https://i.pravatar.cc/150?img=3' 
+
+  }
 
 ]; 
 
